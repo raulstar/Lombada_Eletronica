@@ -1,0 +1,5 @@
+deep-sort-realtime
+opencv-python
+ultralytics
+numpy
+yolo

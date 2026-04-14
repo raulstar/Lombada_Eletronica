@@ -1,0 +1,94 @@
+dado 0
+v 0 
+Zero
+dado 0
+v 0 
+dado 0
+v 0 
+dado 10
+v 10 
+Zero
+dado 0
+v 0 
+dado 22
+v 22 
+Zero
+dado 7
+v 7 
+dado 0
+dado 17
+v 17 
+Zero
+dado 7
+v 7 
+dado 0
+Zero
+dado 0
+v 0 
+dado 33
+v 33 
+dado 13
+Zero
+dado 15
+v 15 
+dado 9
+Zero
+dado 7
+v 7 
+dado 0
+dado 0
+Zero
+dado 0
+v 0 
+dado 0
+v 0 dZero
+dado 0
+v 0 
+dado 0
+v 0 
+dado 21
+v 21 
+Zero
+dado 20
+v 20 
+dado 9
+Zero
+dado 0
+v 0 
+dado 16
+v 16 
+dado 6
+Zero
+dado 0
+v 0 
+dado 0
+v 0 
+Zero
+dado 26
+v 26 
+dado 16
+dado 7
+Zero
+dado 0
+v 0 
+dado 0
+v 0 
+Zero
+dado 21
+v 21 
+dado 23
+v 23 
+dado 11
+Zero
+dado 7
+v 7 
+dado 28
+v 28 
+Zero
+dado 10
+v 10 
+dado 0
+dado 0
+Zero
+dado 0
+v 0 

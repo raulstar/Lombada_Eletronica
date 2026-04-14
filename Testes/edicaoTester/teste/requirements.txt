@@ -1,0 +1,11 @@
+future==1.0.0
+iso8601==2.1.0
+mss==10.0.0
+numpy==2.2.1
+opencv-contrib-python==4.10.0.84
+opencv-python==4.10.0.84
+pynput==1.7.7
+pyserial==3.5
+PyYAML==6.0.2
+serial==0.0.97
+six==1.17.0

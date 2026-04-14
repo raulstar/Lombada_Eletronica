@@ -1,0 +1,261 @@
+dado 40
+v 40 
+dado 50
+v 50 
+Zero
+dado 11
+v 11 
+dado 31
+v 31 
+dado 21
+Zero
+dado 14
+v 14 
+dado 52
+v 52 
+Zero
+dado 54
+v 54 
+dado 38
+dado 21
+Zero
+dado 7
+v 7 
+dado 0
+Zero
+dado 36
+v 36 
+dado 28
+dado 12
+Zero
+dado 19
+v 19 
+dado 15
+Zero
+dado 38
+v 38 
+dado 10
+dado 28
+Zero
+dado 37
+v 37 
+dado 0
+Zero
+dado 0
+v 0 
+dado 0
+v 0 
+dado 38
+v 38 
+Zero
+dado 8
+v 8 
+dado 19
+v 19 
+Zero
+dado 26
+v 26 
+dado 17
+dado 32
+v 32 
+Zero
+dado 12
+v 12 
+dado 14
+v 14 
+Zero
+dado 41
+v 41 
+dado 17
+dado 18
+Zero
+dado 22
+v 22 
+dado 39
+v 39 
+Zero
+dado 13
+v 13 
+dado 9
+dado 24
+v 24 
+Zero
+dado 21
+v 21 
+dado 43
+v 43 
+Zero
+dado 26
+v 26 
+dado 21
+dado 35
+v 35 
+Zero
+dado 0
+v 0 
+dado 0
+v 0 
+Zero
+dado 0
+v 0 
+dado 0
+v 0 
+dado 0
+v 0 
+Zero
+dado 36
+v 36 
+dado 23
+Zero
+dado 11
+v 11 
+dado 32
+v 32 
+dado 6
+Zero
+dado 9
+v 9 
+dado 0
+Zero
+dado 0
+v 0 
+dado 44
+v 44 
+dado 15
+Zero
+dado 0
+v 0 
+dado 0
+v 0 
+Zero
+dado 0
+v 0 
+dado 0
+v 0 
+dado 0
+v 0 
+Zero
+dado 33
+v 33 
+dado 41
+v 41 
+Zero
+dado 34
+v 34 
+dado 10
+dado 42
+v 42 
+Zero
+dado 39
+v 39 
+dado 38
+Zero
+dado 45
+v 45 
+dado 41
+dado 17
+Zero
+dado 0
+v 0 
+dado 0
+v 0 
+Zero
+dado 0
+v 0 
+dado 0
+v 0 
+dado 30
+v 30 
+Zero
+dado 33
+v 33 
+dado 43
+v 43 
+dado 44
+v 44 
+Zero
+dado 18
+v 18 
+dado 0
+Zero
+dado 0
+v 0 
+dado 0
+v 0 
+dado 0
+v 0 
+Zero
+dado 0
+v 0 
+dado 0
+v 0 
+Zero
+dado 0
+v 0 
+dado 0
+v 0 
+dado 31
+v 31 
+Zero
+dado 29
+v 29 
+dado 0
+Zero
+dado 0
+v 0 
+dado 38
+v 38 
+dado 0
+Zero
+dado 0
+v 0 
+dado 0
+v 0 
+Zero
+dado 37
+v 37 
+dado 28
+dado 22
+Zero
+dado 37
+v 37 
+dado 10
+Zero
+dado 24
+v 24 
+dado 34
+v 34 
+dado 27
+Zero
+dado 19
+v 19 
+dado 23
+v 23 
+Zero
+dado 33
+v 33 
+dado 39
+v 39 
+dado 38
+Zero
+dado 47
+v 47 
+dado 52
+v 52 
+Zero
+dado 25
+v 25 
+dado 49
+v 49 
+dado 16
+Zero
+dado 20
+v 20 
+dado 28
+v 28 
+Zero
+dado 26
+v 26 
+dado 18
+dado 24
+Zero
