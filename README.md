@@ -36,22 +36,22 @@ Desenvolver um programa que:
 
 ---
 
-### 🧠 Software
+### Software
 - Python 3
 - OpenCV
 - Adu
 
 ---
 
-## 🏗️ Arquitetura de Referência
+## Arquitetura de Referência
 Protótipo base:
 https://github.com/raulstar/Software_Lombada
 
 ---
 
-## 📋 Funcionalidades
+## Funcionalidades
 
-### 🎥 Entrada de Vídeo
+### Entrada de Vídeo
 - Captura via:
   - Arquivo de vídeo
   - Câmera embarcada
@@ -62,7 +62,7 @@ https://github.com/raulstar/Software_Lombada
 
 ---
 
-### 🚘 Detecção e Rastreamento
+### Detecção e Rastreamento
 - Identificação de veículos em diferentes:
   - Ângulos
   - Elevações
@@ -73,7 +73,7 @@ https://github.com/raulstar/Software_Lombada
 
 ---
 
-### 📏 Cálculo de Velocidade
+### Cálculo de Velocidade
 - Baseado no método VASCAR
 - Linhas de início/fim configuráveis
 - Exibição em tempo real:
@@ -82,7 +82,7 @@ https://github.com/raulstar/Software_Lombada
 
 ---
 
-### 🚨 Controle de Velocidade
+### Controle de Velocidade
 - Definição de limite de velocidade
 - Identificação de veículos infratores
 
@@ -98,14 +98,14 @@ ID   VELOCIDADE   DATA/HORA
 
 ---
 
-### 📸 Captura de Imagens
+###  Captura de Imagens
 - Registro automático de veículos infratores
 - Foco na placa
 - Imagens com qualidade suficiente para OCR futuro
 
 ---
 
-### 🔌 Comunicação Serial
+### Comunicação Serial
 - Detecção automática de portas seriais
 - Envio de dados via:
 
@@ -115,7 +115,7 @@ serial.Serial("COMX", 9600, timeout=0.5)
 
 ---
 
-### 📦 Dependências
+### Dependências
 Deve incluir:
 - Lista completa de bibliotecas
 - Versões utilizadas
@@ -123,14 +123,14 @@ Deve incluir:
 
 ---
 
-## 🧪 Testes Realizados
+## Testes Realizados
 - Resoluções testadas:
   - 1280x720
   - 1920x1080
 
 ---
 
-## ⚠️ Limitações do Protótipo Atual
+##  Limitações do Protótipo Atual
 - Baixa precisão na detecção
 - Identificação incorreta de partes de veículos
 - Velocidades inconsistentes
@@ -139,7 +139,7 @@ Deve incluir:
 
 ---
 
-## 📊 Problemas Observados
+##  Problemas Observados
 - Captura de objetos errados (ex: vidro do carro)
 - Falha em detectar veículos grandes (ex: caminhões)
 - Poucas imagens com foco correto na placa
@@ -147,7 +147,7 @@ Deve incluir:
 
 ---
 
-## ✅ Requisitos Esperados
+##  Requisitos Esperados
 - Um único registro por veículo
 - Associação correta entre:
   - ID
@@ -157,7 +157,7 @@ Deve incluir:
 
 ---
 
-## 🔮 Futuras Etapas
+##  Futuras Etapas
 - Migração para nuvem
 - Interface web (browser)
 - Controle de acesso
@@ -168,14 +168,14 @@ Deve incluir:
 
 ---
 
-## 🧪 Protótipo
+##  Protótipo
 O protótipo atual já implementa grande parte das funcionalidades, porém ainda com limitações de precisão:
 
 https://github.com/raulstar/Software_Lombada
 
 ---
 
-## 🖼️ Imagens
+##  Imagens
 
 ![Image 1](Midias/20250206_171159.jpg)
 ![Image 2](Midias/20250423_175401.jpg)
@@ -183,14 +183,14 @@ https://github.com/raulstar/Software_Lombada
 
 ---
 
-## 🎥 Vídeos
+##  Vídeos
 
 [Video 1](Midias/20250423_180011.mp4)
 [Video 2](Midias/Primeiro teste (2).mp4)
 
 ---
 
-## 📌 Observação Final
+##  Observação Final
 Apesar das limitações, o protótipo demonstrou viabilidade ao:
 - Detectar veículos corretamente em diversos cenários
 - Capturar imagens com enquadramento adequado da placa
