@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lombada Eletrônica - Visão Computacional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .hero-gradient {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <!-- Header / Hero Section -->
+    <header class="hero-gradient text-white py-20 px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between">
+            <div class="md:w-2/3">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Lombada Eletrônica</h1>
+                <p class="text-xl text-slate-300 mb-8 max-w-2xl">
+                    Sistema inteligente de detecção de velocidade utilizando Visão Computacional (OpenCV) e Radar de Micro-ondas para monitoramento de tráfego em tempo real.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="https://github.com/raulstar/Software_Lombada" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold flex items-center gap-2 transition">
+                        <i class="fab fa-github text-xl"></i> Ver no GitHub
+                    </a>
+                    <a href="#funcionalidades" class="bg-white/10 hover:bg-white/20 border border-white/20 text-white px-6 py-3 rounded-lg font-semibold transition">
+                        Explorar Funcionalidades
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/3 mt-12 md:mt-0 flex justify-center">
+                <div class="relative bg-blue-500/20 p-8 rounded-full border border-blue-500/30 animate-pulse">
+                    <i class="fas fa-camera text-7xl text-blue-400"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Project Description -->
+    <section class="py-16 px-6 max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-3xl font-bold mb-6 flex items-center gap-3">
+                    <i class="fas fa-info-circle text-blue-600"></i> Sobre o Projeto
+                </h2>
+                <p class="text-slate-600 mb-4 leading-relaxed">
+                    Este projeto desenvolve um sistema capaz de rastrear, identificar e registrar a velocidade de veículos, além de capturar imagens utilizando Visão Computacional.
+                </p>
+                <div class="space-y-3">
+                    <div class="flex items-start gap-3">
+                        <span class="bg-blue-100 text-blue-700 p-1 rounded-full mt-1"><i class="fas fa-check text-xs px-1"></i></span>
+                        <p><span class="font-bold">V1:</span> Operação em computador embarcado com processamento de imagem contínuo.</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="bg-blue-100 text-blue-700 p-1 rounded-full mt-1"><i class="fas fa-check text-xs px-1"></i></span>
+                        <p><span class="font-bold">V2:</span> Integração com sensor de radar micro-ondas para medição de alta precisão.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-xl border border-slate-100">
+                <h3 class="text-xl font-bold mb-4">Principais Objetivos</h3>
+                <ul class="space-y-4">
+                    <li class="flex items-center gap-3">
+                        <i class="fas fa-car text-blue-500"></i> Detecção de veículos em vídeo
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <i class="fas fa-id-badge text-blue-500"></i> Rastreamento com ID único
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <i class="fas fa-gauge-high text-blue-500"></i> Cálculo de velocidade (VASCAR)
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <i class="fas fa-exclamation-triangle text-blue-500"></i> Identificação de infrações
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Requirements Tabs -->
+    <section class="bg-slate-100 py-16 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-10 text-center">Especificações Técnicas</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Hardware -->
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
+                        <i class="fas fa-microchip text-blue-600"></i> Hardware Requerido
+                    </h3>
+                    <ul class="text-slate-600 space-y-2">
+                        <li>• Gabinete e Estrutura Metálica</li>
+                        <li>• Banco de bateria e Placa Solar</li>
+                        <li>• Mini PC x64 (Celeron N4120 / 4GB RAM)</li>
+                        <li>• Câmera de CFTV</li>
+                        <li>• Compatível com Windows 10/11 e Raspberry Pi</li>
+                    </ul>
+                </div>
+                <!-- Software -->
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
+                        <i class="fas fa-code text-blue-600"></i> Software e Dependências
+                    </h3>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Python 3</span>
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">OpenCV</span>
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Arduino (Adu)</span>
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Serial Communication</span>
+                    </div>
+                    <code class="block bg-slate-800 text-slate-300 p-3 rounded-lg text-sm">
+                        serial.Serial("COMX", 9600, timeout=0.5)
+                    </code>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="funcionalidades" class="py-16 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-10 text-center">Funcionalidades do Protótipo</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm card-hover">
+                <i class="fas fa-video text-3xl text-blue-600 mb-4"></i>
+                <h4 class="font-bold text-lg mb-2">Entrada de Vídeo</h4>
+                <p class="text-slate-600 text-sm italic">Suporte a resoluções HD e Full HD via arquivo ou câmera real-time.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm card-hover">
+                <i class="fas fa-bullseye text-3xl text-blue-600 mb-4"></i>
+                <h4 class="font-bold text-lg mb-2">Rastreamento ID</h4>
+                <p class="text-slate-600 text-sm italic">Atribuição de ID único por veículo com detecção de Bounding Boxes e ROI.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm card-hover">
+                <i class="fas fa-camera-retro text-3xl text-blue-600 mb-4"></i>
+                <h4 class="font-bold text-lg mb-2">Captura de Infratores</h4>
+                <p class="text-slate-600 text-sm italic">Registro automático de fotos com foco na placa para veículos acima do limite.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Logs Example -->
+    <section class="py-16 bg-slate-900 text-white px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+                <i class="fas fa-list-alt"></i> Exemplo de Registro de Log (ASCII)
+            </h2>
+            <div class="bg-black p-6 rounded-lg font-mono text-sm border border-slate-700">
+                <div class="grid grid-cols-3 border-b border-slate-700 pb-2 mb-2 text-slate-400">
+                    <div>ID</div>
+                    <div>VELOCIDADE</div>
+                    <div>DATA/HORA</div>
+                </div>
+                <div class="grid grid-cols-3 py-1 text-red-400">
+                    <div>1</div>
+                    <div>20.66 KM/h</div>
+                    <div>2025-01-21 09:16:21</div>
+                </div>
+                <div class="grid grid-cols-3 py-1 text-red-400">
+                    <div>4</div>
+                    <div>29.94 KM/h</div>
+                    <div>2025-01-21 09:16:26</div>
+                </div>
+                <div class="grid grid-cols-3 py-1 text-red-400">
+                    <div>7</div>
+                    <div>35.99 KM/h</div>
+                    <div>2025-01-21 09:16:55</div>
+                </div>
+                <p class="mt-4 text-xs text-slate-500"># Dados enviados via serial para monitoramento externo</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future / Limitations -->
+    <section class="py-16 px-6 max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
+        <div class="bg-red-50 p-8 rounded-2xl border border-red-100">
+            <h3 class="text-xl font-bold text-red-800 mb-4 flex items-center gap-2">
+                <i class="fas fa-bug"></i> Desafios Atuais
+            </h3>
+            <ul class="text-red-700 space-y-2 text-sm">
+                <li>• Melhora na precisão da detecção (evitar falsos positivos).</li>
+                <li>• Refinar detecção de veículos de grande porte (caminhões).</li>
+                <li>• Corrigir associação entre ID e Imagem da placa.</li>
+                <li>• Eliminar registros múltiplos para o mesmo veículo.</li>
+            </ul>
+        </div>
+        <div class="bg-green-50 p-8 rounded-2xl border border-green-100">
+            <h3 class="text-xl font-bold text-green-800 mb-4 flex items-center gap-2">
+                <i class="fas fa-rocket"></i> Futuras Etapas
+            </h3>
+            <ul class="text-green-700 space-y-2 text-sm">
+                <li>• Integração total com OCR (Leitura automática de placas).</li>
+                <li>• Migração de dados para Nuvem via MQTT.</li>
+                <li>• Interface Web para consulta de dados histórica.</li>
+                <li>• Suporte a múltiplas câmeras simultâneas.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Media / Gallery -->
+    <section class="py-16 px-6 bg-slate-100">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-10">Mídias e Demonstrações</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+                <div class="bg-slate-300 h-64 rounded-xl flex items-center justify-center overflow-hidden group">
+                    <img src="https://via.placeholder.com/600x400?text=Protótipo+2025" alt="Imagem 1" class="w-full h-full object-cover group-hover:scale-110 transition">
+                </div>
+                <div class="bg-slate-300 h-64 rounded-xl flex items-center justify-center overflow-hidden group">
+                    <img src="https://via.placeholder.com/600x400?text=Monitoramento+Real" alt="Imagem 2" class="w-full h-full object-cover group-hover:scale-110 transition">
+                </div>
+                <div class="bg-slate-300 h-64 rounded-xl flex items-center justify-center overflow-hidden group">
+                    <img src="https://via.placeholder.com/600x400?text=Hardware+Instalado" alt="Imagem 3" class="w-full h-full object-cover group-hover:scale-110 transition">
+                </div>
+            </div>
+            <div class="flex flex-wrap justify-center gap-6">
+                <div class="flex items-center gap-2 text-blue-600 font-semibold cursor-pointer">
+                    <i class="fas fa-play-circle text-2xl"></i> Assistir Teste 1
+                </div>
+                <div class="flex items-center gap-2 text-blue-600 font-semibold cursor-pointer">
+                    <i class="fas fa-play-circle text-2xl"></i> Assistir Primeiro Teste
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-12 px-6 border-t border-slate-200">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="text-slate-500 text-sm">
+                © 2025 Projeto Lombada Eletrônica - Raul Star.
+            </div>
+            <div class="flex gap-6">
+                <a href="https://github.com/raulstar" class="text-slate-400 hover:text-slate-900 transition text-2xl">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="text-slate-400 hover:text-slate-900 transition text-2xl">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
