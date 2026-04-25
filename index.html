@@ -29,7 +29,7 @@
                     Sistema inteligente de detecção de velocidade utilizando Visão Computacional (OpenCV) e Radar de Micro-ondas para monitoramento de tráfego em tempo real.
                 </p>
                 <div class="flex flex-wrap gap-4">
-                    <a href="https://github.com/raulstar/Software_Lombada" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold flex items-center gap-2 transition">
+                    <a href="https://github.com/raulstar/Lombada_Eletronica" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold flex items-center gap-2 transition">
                         <i class="fab fa-github text-xl"></i> Ver no GitHub
                     </a>
                     <a href="#funcionalidades" class="bg-white/10 hover:bg-white/20 border border-white/20 text-white px-6 py-3 rounded-lg font-semibold transition">
@@ -86,7 +86,7 @@
         </div>
     </section>
 
-    <!-- Requirements Tabs -->
+    <!-- Requirements Section -->
     <section class="bg-slate-100 py-16 px-6">
         <div class="max-w-6xl mx-auto">
             <h2 class="text-3xl font-bold mb-10 text-center">Especificações Técnicas</h2>
@@ -113,7 +113,6 @@
                         <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Python 3</span>
                         <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">OpenCV</span>
                         <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Arduino (Adu)</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Serial Communication</span>
                     </div>
                     <code class="block bg-slate-800 text-slate-300 p-3 rounded-lg text-sm">
                         serial.Serial("COMX", 9600, timeout=0.5)
@@ -207,24 +206,25 @@
     <section class="py-16 px-6 bg-slate-100">
         <div class="max-w-6xl mx-auto text-center">
             <h2 class="text-3xl font-bold mb-10">Mídias e Demonstrações</h2>
+            <p class="mb-8 text-slate-600 italic">Registros reais capturados pelo sistema</p>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-                <div class="bg-slate-300 h-64 rounded-xl flex items-center justify-center overflow-hidden group">
-                    <img src="https://via.placeholder.com/600x400?text=Protótipo+2025" alt="Imagem 1" class="w-full h-full object-cover group-hover:scale-110 transition">
+                <div class="bg-slate-300 h-64 rounded-xl flex items-center justify-center overflow-hidden group shadow-lg">
+                    <img src="Midias/20250206_171159.jpg" alt="Protótipo do Sistema" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://via.placeholder.com/600x400?text=Midia+1+Indisponivel'">
                 </div>
-                <div class="bg-slate-300 h-64 rounded-xl flex items-center justify-center overflow-hidden group">
-                    <img src="https://via.placeholder.com/600x400?text=Monitoramento+Real" alt="Imagem 2" class="w-full h-full object-cover group-hover:scale-110 transition">
+                <div class="bg-slate-300 h-64 rounded-xl flex items-center justify-center overflow-hidden group shadow-lg">
+                    <img src="Midias/20250423_175401.jpg" alt="Teste em Campo" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://via.placeholder.com/600x400?text=Midia+2+Indisponivel'">
                 </div>
-                <div class="bg-slate-300 h-64 rounded-xl flex items-center justify-center overflow-hidden group">
-                    <img src="https://via.placeholder.com/600x400?text=Hardware+Instalado" alt="Imagem 3" class="w-full h-full object-cover group-hover:scale-110 transition">
+                <div class="bg-slate-300 h-64 rounded-xl flex items-center justify-center overflow-hidden group shadow-lg">
+                    <img src="Midias/20250421_145853.jpg" alt="Hardware Instalado" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://via.placeholder.com/600x400?text=Midia+3+Indisponivel'">
                 </div>
             </div>
             <div class="flex flex-wrap justify-center gap-6">
-                <div class="flex items-center gap-2 text-blue-600 font-semibold cursor-pointer">
-                    <i class="fas fa-play-circle text-2xl"></i> Assistir Teste 1
-                </div>
-                <div class="flex items-center gap-2 text-blue-600 font-semibold cursor-pointer">
+                <a href="Midias/20250423_180011.mp4" class="flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-800 transition">
+                    <i class="fas fa-play-circle text-2xl"></i> Assistir Vídeo 1
+                </a>
+                <a href="Midias/Primeiro teste (2).mp4" class="flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-800 transition">
                     <i class="fas fa-play-circle text-2xl"></i> Assistir Primeiro Teste
-                </div>
+                </a>
             </div>
         </div>
     </section>
@@ -232,14 +232,15 @@
     <!-- Footer -->
     <footer class="bg-white py-12 px-6 border-t border-slate-200">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-            <div class="text-slate-500 text-sm">
-                © 2025 Projeto Lombada Eletrônica - Raul Star.
+            <div class="text-slate-500 text-sm text-center md:text-left">
+                © 2025 Projeto Lombada Eletrônica - Raul Star.<br>
+                Desenvolvido com OpenCV e Radar de Micro-ondas.
             </div>
             <div class="flex gap-6">
                 <a href="https://github.com/raulstar" class="text-slate-400 hover:text-slate-900 transition text-2xl">
                     <i class="fab fa-github"></i>
                 </a>
-                <a href="#" class="text-slate-400 hover:text-slate-900 transition text-2xl">
+                <a href="mailto:contato@exemplo.com" class="text-slate-400 hover:text-slate-900 transition text-2xl">
                     <i class="fas fa-envelope"></i>
                 </a>
             </div>
